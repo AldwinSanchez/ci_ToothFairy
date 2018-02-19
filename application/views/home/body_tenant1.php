@@ -1,20 +1,14 @@
-<html>
 <body>
-
-	<!-- ====================================================
-	header section -->
 	<header class="top-header">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-3 header-logo">
 					<br>
-					<a href="index.html"><img src="assets/images/logo3.png" alt="logo" class="img-responsive logo"></a>
+					<img src="assets/images/logo3.png" alt="logo" class="img-responsive logo">
 				</div>
-
 				<div class="col-md-9">
 					<nav class="navbar navbar-default">
 					  <div class="container-fluid nav-bar">
-					    <!-- Brand and toggle get grouped for better mobile display -->
 					    <div class="navbar-header">
 					      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 					        <span class="sr-only">Toggle navigation</span>
@@ -23,28 +17,25 @@
 					        <span class="icon-bar"></span>
 					      </button>
 					    </div>
-
-					    <!-- Collect the nav links, forms, and other content for toggling -->
 					    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
 					      <ul class="nav navbar-nav navbar-right">
-					        <li><a class="menu active" href="#home" >HOME</a></li>
-					        <li><a class="menu" href="#about">ABOUT US</a></li>
-					        <li><a class="menu" href="#service">OUR SERVICES</a></li>
-					        <li><a class="menu" href="#team">OUR TEAM</a></li>
-					        <li><a class="menu" href="#contact">CONTACT US</a></li>
+					        <li><a class="menu active" href="#home" ><small>HOME</small></a></li>
+									<li><a class="menu" href="#about"><small>ABOUT US</small></a></li>
+									<li><a class="menu" href="#service"><small>SERVICES</small></a></li>
+									<li><a class="menu" href="#dentist"><small>DENTISTS</small></a></li>
+									<li><a class="menu" href="#contact"><small>CONTACT US</small></a></li>
+									<li><a class="menu" href="#setappoinment"><small>APPOINTMENT</small></a></li>
 									<li role="presentation" class="divider"><a>|</a></li>
-									<li><a href="index.php/Login_view">Log In</a></li>
-				          <li><a href="Tenant1Controller/register_view/">Sign Up</a></li>
+									<li><a href="<?php echo site_url('Home/login_view'); ?>"><small>Log In</small></a></li>
+				          <li><a href="<?php echo site_url('Home/register_view'); ?>"><small>Sign Up</small></a></li>
 					      </ul>
-					    </div><!-- /navbar-collapse -->
-					  </div><!-- / .container-fluid -->
+					    </div>
+					  </div>
 					</nav>
 				</div>
 			</div>
 		</div>
-	</header> <!-- end of header area -->
-
+	</header>
 	<section class="slider" id="home">
 		<div class="container-fluid">
 			<div class="row">
@@ -53,7 +44,7 @@
 			        <!-- Wrapper for slides -->
 			        <div class="carousel-inner" role="listbox">
 			            <div class="item active">
-			            	<img src="assets/images/slide-one.jpg" alt="">
+			            	<img src="assets/images/slide1.jpg" alt="">
 			                <div class="carousel-caption">
 		               			<h1>providing</h1>
 		               			<p>highquality dental service</p>
@@ -61,7 +52,7 @@
 			                </div>
 			            </div>
 			            <div class="item">
-			            	<img src="assets/images/slide-two.jpg" alt="">
+			            	<img src="assets/images/slide2.jpg" alt="">
 			                <div class="carousel-caption">
 		               			<h1>providing</h1>
 		               			<p>highquality dental service</p>
@@ -69,7 +60,7 @@
 			                </div>
 			            </div>
 			            <div class="item">
-			            	<img src="assets/images/slide-three.jpg" alt="">
+			            	<img src="assets/images/slide3.jpg" alt="">
 			                <div class="carousel-caption">
 		               			<h1>providing</h1>
 		               			<p>highquality dental service</p>
@@ -77,7 +68,7 @@
 			                </div>
 			            </div>
 			            <div class="item">
-			            	<img src="assets/images/slide-four.jpg" alt="">
+			            	<img src="assets/images/slide4.jpg" alt="">
 			                <div class="carousel-caption">
 		               			<h1>providing</h1>
 		               			<p>highquality dental service</p>
@@ -116,11 +107,11 @@ Let us be partners for all your dental needs and we promise to bring you a lifet
 				<div class="col-md-4 col-sm-6">
 					<div class="single-about-detail clearfix">
 						<div class="about-img">
-							<img class="img-responsive" src="assets/images/item1.jpg" alt="">
+							<img class="img-responsive" src="assets/images/genden.jpg" alt="">
 						</div>
 						<div class="about-details">
 							<div class="pentagon-text">
-								<h1>C</h1>
+								<h1>G</h1>
 							</div>
 							<h3>General Dentistry</h3>
 							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
@@ -130,14 +121,14 @@ Let us be partners for all your dental needs and we promise to bring you a lifet
 				<div class="col-md-4 col-sm-6">
 					<div class="single-about-detail">
 						<div class="about-img">
-							<img class="img-responsive" src="assets/images/item2.jpg" alt="">
+							<img class="img-responsive" src="assets/images/cosden.jpg" alt="">
 						</div>
 						<div class="about-details">
 							<div class="pentagon-text">
-								<h1>W</h1>
+								<h1>C</h1>
 							</div>
 
-							<h3>Children’s specialist</h3>
+							<h3>Cosmetic Dentistry</h3>
 							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
 						</div>
 					</div>
@@ -145,13 +136,13 @@ Let us be partners for all your dental needs and we promise to bring you a lifet
 				<div class="col-md-4 col-sm-6">
 					<div class="single-about-detail">
 						<div class="about-img">
-							<img class="img-responsive" src="assets/images/item3.jpg" alt="">
+							<img class="img-responsive" src="assets/images/specden.jpg" alt="">
 						</div>
 						<div class="about-details">
 							<div class="pentagon-text">
-								<h1>M</h1>
+								<h1>S</h1>
 							</div>
-							<h3>Children’s specialist</h3>
+							<h3>Specialised Dentistry</h3>
 							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
 						</div>
 					</div>
@@ -212,12 +203,12 @@ Let us be partners for all your dental needs and we promise to bring you a lifet
 	</section><!-- end of service section -->
 
 
-	<!-- team section -->
-	<section class="team" id="team">
+	<!-- dentist section -->
+	<section class="dentist" id="dentist">
 		<div class="container">
 			<div class="row">
-				<div class="team-heading text-center">
-					<h2>our team</h2>
+				<div class="dentist-heading text-center">
+					<h2>Dentists</h2>
 					<h4>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</h4>
 				</div>
 				<div class="col-md-2 single-member col-sm-4">
@@ -282,7 +273,7 @@ Let us be partners for all your dental needs and we promise to bring you a lifet
 				</div>
 			</div>
 		</div>
-	</section><!-- end of team section -->
+	</section><!-- end of dentist section -->
 
 	<!-- map section -->
 	<div class="api-map" id="contact">
@@ -326,6 +317,95 @@ Let us be partners for all your dental needs and we promise to bring you a lifet
 			</div>
 		</div>
 	</section><!-- end of contact section -->
+	<!-- setappointment section -->
+	<section class="appointment" id="setappoinment">
+		<div id="intro">
+			<div class="intro-body">
+				<div class="container">
+					<div class="row">
+						<div class="appointment-caption clearfix">
+							<div class="appointment-heading text-center">
+								<h2>Appointment</h2>
+							</div>
+							<div class="col-md-6 col-md-offset-3 appointment-form">
+								<h3>Fill in the form below:</h3>
+								<div class="form">
+									<form role="form" action="assets/contact.php" method="post">
+										<div class="form-group">
+											<label for="c-form-name">
+												<span class="label-text">Name</span>
+												<span class="contact-error"></span>
+											</label>
+											<input type="text" name="name" placeholder="Name" class="c-form-name form-control" id="c-form-name">
+										 </div>
+										<div class="form-group">
+											<label for="c-form-gender">
+												<span class="label-text">Gender</span>
+												<span class="contact-error"></span>
+											</label>
+											<select name="gender" class="c-form-profession form-control" id="c-form-profession">
+												<option value="Your gender is">Choose your gender</option>
+												<option value="Female">Female</option>
+												<option value="Male">Male</option>
+											</select>
+										</div>
+										<div class="form-group">
+											<label for="c-form-service">
+												<span class="label-text">Services</span>
+												<span class="contact-error"></span>
+											</label>
+											<select name="gender" class="c-form-profession form-control" id="c-form-profession">
+												<option value="Choose your Service...">Choose your Service</option>
+												<option value="Teeth Whitening">Teeth Whitening</option>
+												<option value="Fillings">Fillings</option>
+												<option value="Dentures">Dentures</option>
+												<option value="Root canal">Root canal</option>
+												<option value="Dental Implants">Dental Implants</option>
+												<option value="Braces">Braces</option>
+												<option value="Others">Others</option>
+											</select>
+										</div>
+										<div class="form-group">
+											<label for="c-form-email">
+												<span class="label-text">Email</span>
+												<span class="contact-error"></span>
+											</label>
+											<input type="text" name="email" placeholder="Email" class="c-form-email form-control" id="c-form-email">
+										</div>
+										<div class="form-group">
+											<label for="c-form-email">
+												<span class="label-text">Contact Number:</span>
+												<span class="contact-error"></span>
+											</label>
+												<input type="text" name="number" placeholder="Phone no." class="c-form-email form-control" id="c-form-number">
+										</div>
+										<div class="form-group">
+											<label for="c-form-appointment">
+												<span class="label-text">Set Appointment:</span>
+												<span class="contact-error"></span>
+											</label>
+											<input type="date" name="appointment" max="2100-12-31" class="c-form-email form-control" id="c-form-email">
+										</div>
+
+										<div class="form-group">
+											<label for="c-form-message">
+												<span class="label-text">Message:</span>
+												<span class="contact-error"></span>
+											 </label>
+											<textarea name="message" placeholder="Message" class="c-form-message form-control" id="c-form-message"></textarea>
+										</div>
+										<input class="submit-btn" type="submit" value="SUBMIT">
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+		<script src='https://andwecode.com/wp-content/uploads/2015/10/jquery.leanModal.min_.js'></script>
+		<script  src="assets/js/login.js"></script>
+	</div>
+	</section><!-- end of appointment section -->
 
 
 
@@ -338,4 +418,3 @@ Let us be partners for all your dental needs and we promise to bring you a lifet
 	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/custom.js"></script>
 </body>
-</html>

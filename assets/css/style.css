@@ -369,18 +369,18 @@ li a.active {
     position: absolute;
 }
 
-/*team section*/
+/*dentist section*/
 
-.team {
+.dentist {
     padding-bottom: 60px;
 }
-.team h2 {
+.dentist h2 {
     font-size: 90px;
     color: #42b3e5;
     margin-top: 50px;
     margin-bottom: 0;
 }
-.team h4 {
+.dentist h4 {
     font-size: 24px;
     color: #737373;
     margin-top: 0;
@@ -542,7 +542,7 @@ li a.active {
     float: right;
     font-size: 24px;
     color: #fff;
-    background: url(../img/btn-bg.jpg);
+    background: url(../images/btn-bg.jpg);
     background-repeat: no-repeat;
     padding: 0;
     font-family: 'BenchNine', sans-serif;
@@ -647,6 +647,119 @@ li a.active {
     }
 }
 
+
+/*appointment section*/
+
+.appointment-caption {
+    background: #3a9dca;
+    margin-top: 50px;
+		margin-bottom: 50px;
+		margin-right: 100px;
+		margin-left: 100px;
+}
+.appointment-heading h2 {
+    color: #fff;
+    font-size: 90px;
+}
+.appointment-info {
+    padding-left: 40px;
+}
+.appointment-info h3 {
+    padding-left: 0;
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 1px solid #13849c;
+    padding-bottom: 12px;
+    margin-bottom: 0;
+}
+.appointment-form h3 {
+    padding-left: 0;
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 1px solid #13849c;
+    padding-bottom: 12px;
+    margin-bottom: 0;
+}
+.appointment-info ul {
+    margin: 0;
+    padding: 0;
+}
+.appointment-info ul li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #fff;
+}
+.appointment-info i.fa {
+    font-size: 16px;
+    padding-right: 12px;
+    width: 25px;
+    height: 38px;
+}
+.appointment-info ul li span {
+    font-weight: bold;
+}
+.appointment-form input {
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    font-size: 13px;
+    color: #084a5c;
+    font-family: 'Open Sans', sans-serif;
+    padding: 12px;
+    border: 0;
+    margin-bottom: 12px;
+}
+.appointment-form textarea {
+    font-family: 'Open Sans', sans-serif;
+    padding: 12px;
+    width: 100%;
+    height: 140px;
+    border: 0;
+    margin-bottom: 12px;
+}
+.info-detail-appointment {
+    border-top: 1px solid #53cde5;
+    padding-top: 15px;
+}
+.form-appointment {
+    border-top: 1px solid #53cde5;
+    padding-top: 15px;
+    text-align: right;
+}
+.appointment-form input.submit-btn {
+    width: 180px;
+    height: 50px;
+    float: right;
+    font-size: 24px;
+    color: #fff;
+    background: url(../images/btn-bg.jpg);
+    background-repeat: no-repeat;
+    padding: 0;
+    font-family: 'BenchNine', sans-serif;
+    font-weight: bold;
+}
+.appointment-form {
+    padding-right: 40px;
+}
+}
+.appointment {
+    position: absolute;
+    width: 100%;
+    height: 830px;
+    margin-top: 0px;
+    left: 0;
+    margin-top: -830px;
+    background: rgba(0, 0, 0, 0.51);
+}
+
+
+
+
+
 /* just for demo purpose */
 
 html,
@@ -730,6 +843,13 @@ responsive area
     .contact-caption {
         margin-top: 110px;
     }
+    .appointment {
+        margin-top: -1050px;
+        height: 1050px;
+    }
+    .appointment-caption {
+        margin-top: 110px;
+    }
 }
 
 /* xs */
@@ -762,6 +882,10 @@ responsive area
         height: 1120px;
         margin-top: -1120px;
     }
+    .appointment {
+        height: 1120px;
+        margin-top: -1120px;
+    }
     h2 {
         font-size: 70px !important;
     }
@@ -775,6 +899,15 @@ responsive area
         width: 25px;
     }
     .contact-caption {
+        margin-top: 140px;
+    }
+    .appointment-info ul {
+        margin-left: 4px;
+    }
+    .appointment-info i.fa {
+        width: 25px;
+    }
+    .appointment-caption {
         margin-top: 140px;
     }
 }
@@ -831,7 +964,7 @@ responsive area
         font-size: 50px;
         margin-top: 40px;
     }
-    .team h2 {
+    .dentist h2 {
         font-size: 50px;
         margin-top: 40px;
     }
@@ -874,6 +1007,41 @@ responsive area
         padding: 10px;
     }
     .contact-form h3 {
+        font-size: 25px;
+        padding-bottom: 8px;
+        margin-bottom: 0;
+        margin-right: 0px;
+    }
+    .appointment-caption {
+        margin-top: 38%;
+    }
+    .appointment {
+        height: 950px;
+        margin-top: -950px;
+    }
+    .appointment-heading h2 {
+        font-size: 50px;
+        text-align: left;
+        margin-left: 15px;
+    }
+    .appointment-info h3 {
+        margin-left: 8px;
+        font-size: 25px;
+        padding-bottom: 8px;
+    }
+    .appointment-info ul li {
+        font-size: 10px;
+    }
+    .appointment-info i.fa {
+        font-size: 13px;
+        width: 20px;
+        height: 18px;
+    }
+    .appointment-info,
+    .appointment-form {
+        padding: 10px;
+    }
+    .appointment-form h3 {
         font-size: 25px;
         padding-bottom: 8px;
         margin-bottom: 0;
